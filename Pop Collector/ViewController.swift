@@ -45,6 +45,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.imageView?.image = UIImage(data: pop.image! as Data)
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let pop = popVynals[indexPath.row]
+        
+        performSegue(withIdentifier: "gameSegue", sender: pop)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextVC = segue.destination as! PopViewController
+        nextVC.pop = sender as? Pop
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
