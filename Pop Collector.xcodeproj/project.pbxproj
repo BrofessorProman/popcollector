@@ -13,6 +13,8 @@
 		7C2B77331DA1E4990046A532 /* Pop_Collector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B77311DA1E4990046A532 /* Pop_Collector.xcdatamodeld */; };
 		7C2B77351DA1E4990046A532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C2B77341DA1E4990046A532 /* Assets.xcassets */; };
 		7C2B77381DA1E4990046A532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C2B77361DA1E4990046A532 /* LaunchScreen.storyboard */; };
+		7C2B77401DA3458B0046A532 /* blurryAtv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C2B773F1DA3458B0046A532 /* blurryAtv.jpg */; };
+		7C2B77421DA346AC0046A532 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B77411DA346AC0046A532 /* PopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7C2B77341DA1E4990046A532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C2B77371DA1E4990046A532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C2B77391DA1E4990046A532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C2B773F1DA3458B0046A532 /* blurryAtv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blurryAtv.jpg; sourceTree = "<group>"; };
+		7C2B77411DA346AC0046A532 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				7C2B772A1DA1E4990046A532 /* AppDelegate.swift */,
 				7C2B772C1DA1E4990046A532 /* ViewController.swift */,
+				7C2B77411DA346AC0046A532 /* PopViewController.swift */,
 				7C2B772E1DA1E4990046A532 /* Main.storyboard */,
+				7C2B773F1DA3458B0046A532 /* blurryAtv.jpg */,
 				7C2B77341DA1E4990046A532 /* Assets.xcassets */,
 				7C2B77361DA1E4990046A532 /* LaunchScreen.storyboard */,
 				7C2B77391DA1E4990046A532 /* Info.plist */,
@@ -129,6 +135,7 @@
 				7C2B77381DA1E4990046A532 /* LaunchScreen.storyboard in Resources */,
 				7C2B77351DA1E4990046A532 /* Assets.xcassets in Resources */,
 				7C2B77301DA1E4990046A532 /* Main.storyboard in Resources */,
+				7C2B77401DA3458B0046A532 /* blurryAtv.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C2B77421DA346AC0046A532 /* PopViewController.swift in Sources */,
 				7C2B772D1DA1E4990046A532 /* ViewController.swift in Sources */,
 				7C2B77331DA1E4990046A532 /* Pop_Collector.xcdatamodeld in Sources */,
 				7C2B772B1DA1E4990046A532 /* AppDelegate.swift in Sources */,
